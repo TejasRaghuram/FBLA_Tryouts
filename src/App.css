@@ -51,6 +51,33 @@ p {
   text-underline-offset: 10px;
 }
 
+#header {
+  animation-name: fadeup_header;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+#subtitle {
+  opacity: 0;
+}
+
+.subtitle_animation {
+  animation: fadeup_subtitle 4s infinite;
+}
+
+@keyframes fadeup_header {
+  0%   {opacity: 0; margin-top: 20px;}
+  15%  {opacity: 1; margin-top: 0px;}
+  100% {opacity: 1; margin-top: 0px;}
+}
+
+@keyframes fadeup_subtitle {
+  0%   {opacity: 0; margin-top: 20px;}
+  15%  {opacity: 1; margin-top: 0px;}
+  95%  {opacity: 1;}
+  100% {opacity: 0;}
+}
+
 @media (max-width: 600px) {
   
   h1 {
