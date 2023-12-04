@@ -13,11 +13,24 @@ body {
 
 h1 {
   font-size: 64px;
+  text-shadow:white 0 0 50px;
+}
+
+h3 {
+  font-size: 48px;
+  text-align: center;
+  text-shadow:white 0 0 50px;
 }
 
 p { 
   font-size: 24px;
   color: gray;
+}
+
+.highlight {
+  background: -webkit-linear-gradient(rgb(225, 175, 255), rgb(125, 100, 255));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #title {
@@ -36,6 +49,13 @@ p {
   
   h1 {
     font-size: 54px;
+    line-height: 60px;
+  }
+  
+  h3 {
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
   }
 
   #title {
