@@ -1,5 +1,6 @@
 import './App.css';
 import { useState, useEffect } from 'react';
+import Spline  from '@splinetool/react-spline';
 
 function App() {
 
@@ -31,6 +32,7 @@ function App() {
     <div>
       <h3 id="header">The <span class="highlight">Future</span> is now.</h3>
       <h4 id="subtitle">{phrases[subtitle]} <span class="highlight">{keywords[subtitle]}</span></h4>
+      <Spline scene="https://prod.spline.design/qbwtt5tHsl9AswKs/scene.splinecode" id="viewer"/>
       <div id="title">
         <h1 id="title_header"><span class="highlight">PineApple</span> Book <span class="highlight">11</span></h1>
         <p>Starting at $645</p>

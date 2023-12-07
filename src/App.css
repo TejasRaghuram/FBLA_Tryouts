@@ -9,6 +9,8 @@
 body {
   background-color: black;
   padding: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 h1 {
@@ -49,6 +51,15 @@ p {
   text-decoration: underline;
   text-decoration-thickness: 1px;
   text-underline-offset: 10px;
+}
+
+#viewer {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #header {
