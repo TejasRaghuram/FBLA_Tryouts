@@ -32,7 +32,7 @@ function App() {
       <h3 id="header">The <span class="highlight">Future</span> is now.</h3>
       <h4 id="subtitle">{phrases[subtitle]} <span class="highlight">{keywords[subtitle]}</span></h4>
       <div id="title">
-        <h1 id="title_header">PineApple Book 11</h1>
+        <h1 id="title_header"><span class="highlight">PineApple</span> Book <span class="highlight">11</span></h1>
         <p>Starting at $645</p>
       </div>
     </div>
